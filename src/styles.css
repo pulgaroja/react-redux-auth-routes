@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+	background-color: #eee;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+button:hover,
+input[type='submit'] {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.content {
+	max-width: 700px;
+	margin: 0px auto;
+	padding: 10px 40px;
+}

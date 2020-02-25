@@ -1,0 +1,38 @@
+.container {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: calc(50vh - 175px);
+	padding: 20px;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	width: 100%;
+}
+
+label {
+	margin-right: 10px;
+}
+
+input {
+	width: calc(100% - 24px);
+	margin: 10px auto;
+	box-shadow: none;
+	border: 2px solid #ccc;
+	padding: 10px;
+}
+
+input[type='submit'] {
+	width: 100%;
+	background-color: blue;
+	color: white;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
